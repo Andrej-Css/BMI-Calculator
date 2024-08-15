@@ -4,6 +4,11 @@
     var height = document.getElementById("height").value; // returneaza valoarea elementului
     var bmi = (weight)/(height * height); //adaugam formula de calcul
     var bmiResult = Math.trunc(bmi); //scapam de zecimale
+    //Math.trunc() cuts away (truncates) the decimal places.
+    //Math.round() rounds towards closest integer number.
+    //Math.floor() rounds towards closest lower integer number. 3.5 -> 3 -3.5 -> -4
+    //Math.ceil() rounds towards closest higher integer number. 3.5 -> 4 -3.5 -> -3
+   
     document.getElementById("result").innerText = bmiResult; //din html in valoarea result adaugam bmiResult
 
     checkBMI(bmiResult); //chem functia checkBMI, important! fara aceasta componenta urmatoarea parte a codului nu mai ruleaza. Intrebare: de ce functioneaza checkBMI daca este definita abia mai jos. Raspuns (cred): nu conteaza ordinea de aparitie a functiilor in JS. 
