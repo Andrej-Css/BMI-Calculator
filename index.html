@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>Check your BMI</title>
+    </head>
+    <link rel="stylesheet" href="styles.css">
+    <body>
+        <div class="wrapper">
+        <img src="bmi-chart-underweight-to-overweight.png" alt="BMI Chart">
+        <div class="inputValues">
+            <label for = "weight">Enter your weight:</label>
+            <input type="number" id="weight">
+
+            <label for ="height">Enter your height</label>
+            <input type="number" id="height">
+        </div>
+
+        <button onclick="CalculateBMI()">Check your BMI</button>
+        <p class="checkHealth">The BMI is: <span id="result"></span></p>
+    </div>
+
+        <script src="./index.js" ></script>
+    </body>
+</html> 

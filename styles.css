@@ -1,0 +1,70 @@
+body{
+    background-color: rgba(248, 208, 29, 0.856);
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    /*pentru centrare in pagina*/
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+}
+
+img {
+    width:100%;
+    /*max-width:600px;*/
+    border-radius: 10px;
+}
+
+.inputValues {
+   /* display: flex;
+    flex-direction:row;*/
+    display: inline-block;
+    margin: 10px;
+    justify-content: center;
+    padding: 10px;
+    gap: 20px;
+    font-size: 20px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.wrapper {
+    background-color: white;
+    border-radius: 50px;
+    max-width: 900px;
+    padding: 20px;
+    margin:20px;
+}
+
+input {
+    max-width: 50px;
+}
+
+p {
+    font-size: 38px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+
+.result-underweight{
+    color: #f1cccc;
+  }
+  
+  .result-normalWeight {
+    color: #06bd21;
+  }
+  
+ .result-overWeight {
+   color: #fc9800;
+  }
+  .result-obese {
+    color:#ff0000;
+  }
